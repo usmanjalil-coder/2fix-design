@@ -1,406 +1,414 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-#nav_img{
-    width: 250px;
-    height: 65px;
+#nav_img {
+  width: 250px;
+  height: 65px;
 }
-#order_list li{
-    /* font-family: Ubuntu; */
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #7E7E7E;
+#order_list li {
+  /* font-family: Ubuntu; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7e7e7e;
 }
-#navibar{
-    color: #ffff;
+#navibar {
+  color: #ffff;
 }
-#order_list li a:hover{
-    color: #0092E7; 
+#order_list li a:hover {
+  color: #0092e7;
 }
-#nav_btn{
-    width: 157px;
-    height: 30px;
-    background: #0092E7;
-    color: #FFFFFF;
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: 0em;
-    border: none;
-    margin-right: 5rem;
-    /* text-align: left; */
-    border-radius: 0px 22px 0px 22px;
+#nav_btn {
+  width: 157px;
+  height: 30px;
+  background: #0092e7;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  border: none;
+  margin-right: 5rem;
+  /* text-align: left; */
+  border-radius: 0px 22px 0px 22px;
 }
-#icon{
-    margin-right: 9px;
+#icon {
+  margin-right: 9px;
 }
-.body_div{
-    background-image: url('images/bg_cover.png'); 
-    padding: 17vh 0vw;
+.body_div {
+  background-image: url("images/bg_cover.png");
+  padding: 17vh 0vw;
 }
-#my_span{
-    color: #0092E7;
-    font-family: 'Tomorrow', sans-serif;
+#my_span {
+  color: #0092e7;
+  font-family: "Tomorrow", sans-serif;
 }
 
-#bg_clr{
-    background-color: #F2F2F2;
+#bg_clr {
+  background-color: #f2f2f2;
 }
-#bg_clr h3{
-    border-bottom: 2px solid #746f6f;
-    padding: 9px 0;
-    font-family: monospace;
-
+#bg_clr h3 {
+  border-bottom: 2px solid #746f6f;
+  padding: 9px 0;
+  font-family: monospace;
 }
-#bg_clr form{
-    padding: 10px 30px;
+#bg_clr form {
+  padding: 10px 30px;
 }
-#bg_clr form input{
-    border-radius: 0;
-    border: none;
-    outline: none;
+#bg_clr form input {
+  border-radius: 0;
+  border: none;
+  outline: none;
 }
-#bg_clr form label{
-    font-family: math;
-    font-size: 16px;
-    /* font-weight: 400; */
-    line-height: 32px;
-    letter-spacing: 0em;
-    /* text-align: left; */
-
+#bg_clr form label {
+  font-family: math;
+  font-size: 16px;
+  /* font-weight: 400; */
+  line-height: 32px;
+  letter-spacing: 0em;
+  /* text-align: left; */
 }
-#bg_clr form button{
-    border-radius: 0;
-    width: 100%;
-    background-color: #0092E7;
-    border: none;
-    font-family: math;
-    font-size: 15px;
-    margin-bottom: 10px;
+#bg_clr form button {
+  border-radius: 0;
+  width: 100%;
+  background-color: #0092e7;
+  border: none;
+  font-family: math;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
-#radio1 .radio_style{
-    border: 1px solid #bbb3b3;
-    border-radius: 50%;
+#radio1 .radio_style {
+  border: 1px solid #bbb3b3;
+  border-radius: 50%;
 }
-#radio3 .radio_style{
-    border: 1px solid #bbb3b3;
-    border-radius: 50%;
+#radio3 .radio_style {
+  border: 1px solid #bbb3b3;
+  border-radius: 50%;
 }
-#radio2 .radio_style{
-    border: 1px solid #bbb3b3;
-    border-radius: 50%;
+#radio2 .radio_style {
+  border: 1px solid #bbb3b3;
+  border-radius: 50%;
 }
 #radio_box .labbeled {
-    font-family: math;
-    font-size: 16px;
+  font-family: math;
+  font-size: 16px;
 }
 
 /* second page  */
-.secondPage{
-    margin-bottom: -9vh;
+.secondPage {
+  margin-bottom: -9vh;
 }
 
-
-#secondOfLeft p{
-    display: inline;
-    font-size: 13px;
+#secondOfLeft p {
+  display: inline;
+  font-size: 13px;
 }
 
-#secondOfLeft h2{
-    font-family: fantasy;
-    word-spacing: 8px;
-    font-size: 33px;
+#secondOfLeft h2 {
+  font-family: fantasy;
+  word-spacing: 8px;
+  font-size: 33px;
 }
 
-#secondOfLeft img{
-    height: 40px;
+#secondOfLeft img {
+  height: 40px;
 }
-#secondOfLeft h6{
-    font-family: math;
-    padding-top: 3vh;
+#secondOfLeft h6 {
+  font-family: math;
+  padding-top: 3vh;
 }
-#smallBox1 h6{
-
+#smallBox1 h6 {
 }
-#smallBox1 p{
-    font-size: 8px;
+#smallBox1 p {
+  font-size: 8px;
 }
-#smallBox1 img{
-    margin-top: 1vh;
-    height: 12vh;
+#smallBox1 img {
+  margin-top: 1vh;
+  height: 12vh;
 }
-#smallBox2 p{
-    font-size: 8px;
+#smallBox2 p {
+  font-size: 8px;
 }
-#smallBox2 img{
-    height: 45px;
-    margin: 6px 0px;
+#smallBox2 img {
+  height: 45px;
+  margin: 6px 0px;
 }
-#smbox{
-    background-color: #FFFFFF;
-    border: 1px solid #d9d4d4;
+#smbox {
+  background-color: #ffffff;
+  border: 1px solid #d9d4d4;
 }
-#smbox h6{
-    color: #0092E7;
+#smbox h6 {
+  color: #0092e7;
 }
-#smbox p{
-    font-size: 9px;
+#smbox p {
+  font-size: 9px;
 }
-#smbox img{
-    height: 29px;
-    margin: 3vh 0;
+#smbox img {
+  height: 29px;
+  margin: 3vh 0;
 }
-#fourbox{
-    position: relative;
-    top: 18vh;
-}
-
-#fourbox .btn{
-    border-radius: 0;
-    width: 100%;
-    /* height: 33px; */
-    font-size: 11px;
-    margin-bottom: 14px;
-    padding: 6px 0;
-}
-#firstRow #one h5{
-    font-size: 45px;
-    font-family: 'Tomorrow', sans-serif;
-    margin-top: 19vh;
-}
-#firstRow #one h2{
-    font-size: 50px;
-    font-family: 'Tomorrow', sans-serif;
-    font-weight: bold;
-}
-#firstRow #one p{
-    font-size: 12px;
-}
-#one span{
-    color: #0092E7;
-    font-family: 'Tomorrow', sans-serif;
+#fourbox {
+  position: relative;
+  top: 18vh;
 }
 
-
-#secondContainer{
-    background-image: url('images/bg.png');
+#fourbox .btn {
+  border-radius: 0;
+  width: 100%;
+  /* height: 33px; */
+  font-size: 11px;
+  margin-bottom: 14px;
+  padding: 6px 0;
 }
-#secondRow #Two p{
-    font-size: 8px;
+#firstRow #one h5 {
+  font-size: 45px;
+  font-family: "Tomorrow", sans-serif;
+  margin-top: 19vh;
 }
-#secondRow #Two{
-    transform: skewX(-10deg);
+#firstRow #one h2 {
+  font-size: 50px;
+  font-family: "Tomorrow", sans-serif;
+  font-weight: bold;
 }
-
-#secondRow #Two img{
-    height: 9vh;
-    margin-top: 2vh;
+#firstRow #one p {
+  font-size: 12px;
 }
-
-#rowNo1 #_one h2{
-    color: #0092E7;
-    font-size: 40px;
-    font-weight: bolder;
-    font-family: 'Tomorrow', sans-serif;
+#one span {
+  color: #0092e7;
+  font-family: "Tomorrow", sans-serif;
 }
-
-#rowNo1 #_one p{
-    font-size: 13px;
+#one h5 {
+  padding-left: 100px;
 }
-
-#rowNo2 #a img{
-    height: 8vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    transition: .4s;
-    cursor: pointer;
+#one h2 {
+  padding-left: 100px;
 }
-
-#rowNo2 #a img:hover{
-    transform: scale(1.2);
+#one p {
+  padding-left: 100px;
 }
-#rowNo2 #a{
-    cursor: pointer;
-    transition: .3s;
+#secondContainer {
+  background-image: url("images/bg.png");
 }
-#rowNo2 #a:hover{
-    background-color: #abd5ee;
+#secondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
 }
-
-#rowNo2 #a h6{
-    color: #0092E7;
-    font-size: small;
+#secondRow #Two p {
+  font-size: 8px;
 }
-#rowNo2 #a p{
-    font-size: 8px;
+#secondRow #Two {
+  transform: skewX(-10deg);
 }
 
-#rowNo3 #a img{
-    height: 8vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    transition: .4s;
-    cursor: pointer;
-}
-#rowNo3 #a img:hover{
-    transform: scale(1.2);
+#secondRow #Two img {
+  height: 9vh;
+  margin-top: 2vh;
 }
 
-#rowNo3 #a h6{
-    color: #0092E7;
-    font-size: small;
-}
-#rowNo3 #a p{
-    font-size: 8px;
-}
-
-#rowNo3 #a{
-    cursor: pointer;
-    transition: .3s;
-    padding-top: 2vh;
-}
-#rowNo3 #a:hover{
-    background-color: #abd5ee;
-}
-#centerButton button{
-    border-radius: 0;
-    font-size: 10px;
-    background: none;
-    color: #0092E7;
-    padding: 5px 25px;
-    border: 1px solid gainsboro;
+#rowNo1 #_one h2 {
+  color: #0092e7;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Tomorrow", sans-serif;
 }
 
-#clients h2{
-    color: #0092E7;
-    font-weight: bold;
-    font-size: 50px;
-    font-family: 'Tomorrow';
+#rowNo1 #_one p {
+  font-size: 13px;
 }
 
-#clients p{
-    font-size: 13px;
-}
-#clientfcard h6{
-    color: rgb(17, 17, 110);
-}
-#clientfcard{
-    border: 2px solid #0092E7;
+#rowNo2 #a img {
+  height: 8vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
-#clientfcard h5{
-    font-size: 9px;
-    position: relative;
-    top: -5vh;
-    color: #898383;
-    left: 6vw;
+#rowNo2 #a img:hover {
+  transform: scale(1.2);
+}
+#rowNo2 #a {
+  cursor: pointer;
+  transition: 0.3s;
+}
+#rowNo2 #a:hover {
+  background-color: #abd5ee;
 }
 
-#clientfcard p{
-    font-size: 13px;
+#rowNo2 #a h6 {
+  color: #0092e7;
+  font-size: small;
+}
+#rowNo2 #a p {
+  font-size: 8px;
 }
 
-#clientfcard img{
-    height: 12vh;
-    margin-top: 3vh;
+#rowNo3 #a img {
+  height: 8vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  transition: 0.4s;
+  cursor: pointer;
 }
-#countParent{
-    background-color: rgb(11, 11, 92);
-    padding: 10vh 0vh;
-}
-#count h1{
-    font-family: system-ui;
-    font-size: 13vh;
-    font-weight: 600;
-    cursor: pointer;
+#rowNo3 #a img:hover {
+  transform: scale(1.2);
 }
 
-
-#count p{
-    cursor: pointer;
-    font-family: math;
+#rowNo3 #a h6 {
+  color: #0092e7;
+  font-size: small;
 }
-#iphone #iphone1 span{
-    color: #0092E7;
-}
-#iphone #iphone1 h6{
-    color: #504d4d;
-    font-family: math;
-    margin-bottom: 20px;
+#rowNo3 #a p {
+  font-size: 8px;
 }
 
-#iphone #iphone1 h1{
-    font-weight: bold;
-    font-family: tomorrow;
-    font-size: 45px;
+#rowNo3 #a {
+  cursor: pointer;
+  transition: 0.3s;
+  padding-top: 2vh;
+}
+#rowNo3 #a:hover {
+  background-color: #abd5ee;
+}
+#centerButton button {
+  border-radius: 0;
+  font-size: 10px;
+  background: none;
+  color: #0092e7;
+  padding: 5px 25px;
+  border: 1px solid gainsboro;
 }
 
-#iphone #iphone1 i{
-    background: cornflowerblue;
-    color: white;
-    padding: 7px;
-    border-radius: 50%;
-    margin-right: 11px;
+#clients h2 {
+  color: #0092e7;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Tomorrow";
 }
 
-#iphone #iphone2 img{
-    height: 85vh;
+#clients p {
+  font-size: 13px;
+}
+#clientfcard h6 {
+  color: rgb(17, 17, 110);
+}
+#clientfcard {
+  border: 2px solid #0092e7;
+}
+
+#clientfcard h5 {
+  font-size: 9px;
+  position: relative;
+  top: -5vh;
+  color: #898383;
+  left: 6vw;
+}
+
+#clientfcard p {
+  font-size: 13px;
+}
+
+#clientfcard img {
+  height: 12vh;
+  margin-top: 3vh;
+}
+#countParent {
+  background-color: rgb(11, 11, 92);
+  padding: 10vh 0vh;
+}
+#count h1 {
+  font-family: system-ui;
+  font-size: 13vh;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#count p {
+  cursor: pointer;
+  font-family: math;
+}
+#iphone #iphone1 span {
+  color: #0092e7;
+}
+#iphone #iphone1 h6 {
+  color: #504d4d;
+  font-family: math;
+  margin-bottom: 20px;
+}
+
+#iphone #iphone1 h1 {
+  font-weight: bold;
+  font-family: tomorrow;
+  font-size: 45px;
+}
+
+#iphone #iphone1 i {
+  background: cornflowerblue;
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+  margin-right: 11px;
+}
+
+#iphone #iphone2 img {
+  height: 85vh;
 }
 
 /* #bg_img{
     background-image: url('bgg.png');
 } */
 
-#bgimg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 100vh;
+#bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
 }
 
-#fullcard #card h1{
-    font-weight: 700;
-    font-family: 'Tomorrow', sans-serif;
-    color: white;
+#fullcard #card h1 {
+  font-weight: 700;
+  font-family: "Tomorrow", sans-serif;
+  color: white;
 }
-#fullcard #card span{
-    color: #0092E7;
+#fullcard #card span {
+  color: #0092e7;
 }
-#fullcard #card button{
-    border-radius: 0;
-    font-size: 9px;
-    padding: 1vh 3vw;
+#fullcard #card button {
+  border-radius: 0;
+  font-size: 9px;
+  padding: 1vh 3vw;
 }
-#fullcard{
-    background-color: rgb(5, 5, 49);
+#fullcard {
+  background-color: rgb(5, 5, 49);
 }
-#card{
-    padding: 10vh 0;
-}
-
-#h2pDiv #h2pfChild #h2p h2{
-    font-family: 'Tomorrow', sans-serif;
-    font-weight: bold;
+#card {
+  padding: 10vh 0;
 }
 
-#h2pDiv #h2pfChild #h2p span{
-    font-weight: 800;
-    color: #0092E7;
-    font-size: 48px;
-    font-family: 'Tomorrow', sans-serif;
+#h2pDiv #h2pfChild #h2p h2 {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: bold;
 }
 
-#h2pDiv #h2pfChild #h2p p{
-    font-size: 15px;
+#h2pDiv #h2pfChild #h2p span {
+  font-weight: 800;
+  color: #0092e7;
+  font-size: 48px;
+  font-family: "Tomorrow", sans-serif;
 }
-#h2pDiv{
-    margin-top: 10vh;
+
+#h2pDiv #h2pfChild #h2p p {
+  font-size: 15px;
+}
+#h2pDiv {
+  margin-top: 10vh;
 }
 /* #six-images .logo-six{
 
@@ -414,48 +422,60 @@
 
 } */
 
-#h2pDiv #miniPcDetail p{
-    font-size: 11px;
+#h2pDiv #miniPcDetail p {
+  font-size: 11px;
 }
-#manbgPic #man1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 89vh;
-}
-
-#footerContainer{
-    background-color: #DDF2FF;
-    padding: 8vh 0;
-}
-#about p{
-    font-size: 14px;
-}
-#timing p{
-    font-size: 14px;
-    margin-bottom: 10vh;
-}
-#explore p{
-    font-size: 14px;
+#manbgPic #man1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 89vh;
 }
 
-#timing{
-    border-left: 1px solid gray;
+#footerContainer {
+  background-color: #ddf2ff;
+  padding: 8vh 0;
+}
+#about p {
+  font-size: 14px;
+}
+#timing p {
+  font-size: 14px;
+  margin-bottom: 10vh;
+}
+#explore p {
+  font-size: 14px;
 }
 
-#explore{
-    border-left: 1px solid gray;
+#timing {
+  border-left: 1px solid gray;
 }
-#timing i{
-    background-color: black;
-    color: white;
-    padding: 8px;
-    margin-right: 5px;
-    border-radius: 50%;
-    font-size: 12px;
-} 
 
-#lastFooter #footer{
-    background-color: rgb(11, 11, 92);
+#explore {
+  border-left: 1px solid gray;
+}
+#timing i {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+#lastFooter #footer {
+  background-color: rgb(11, 11, 92);
+}
+
+@media screen and (max-width: 1000px) {
+  #one h5 {
+    padding-left: 20px;
+  }
+  #one h2 {
+    padding-left: 20px;
+  }
+  #one p {
+    padding-left: 20px;
+  }
 }

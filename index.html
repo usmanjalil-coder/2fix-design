@@ -1,552 +1,780 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <title>2fix Computer - Figma Design!</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>2fix Computer - Figma Design!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-<body>
-  <!-- navbar starting -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navibar">
-    <div class="container-fluid position-relative">
-      <img class="img-fluid" id="nav_img" src="images/header_left_logo.png" alt="">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul id="order_list" class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our Gurantee</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Payment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <button id="nav_btn" class="btn btn-outline-success" type="submit"><i class="bi bi-telephone"
-              id="icon"></i>(201) 428-1034</button>
-        </form>
+  <body>
+    <!-- navbar starting -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navibar">
+      <div class="container-fluid position-relative">
+        <img
+          class="img-fluid"
+          id="nav_img"
+          src="images/header_left_logo.png"
+          alt=""
+        />
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="order_list" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Gurantee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Payment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button id="nav_btn" class="btn btn-outline-success" type="submit">
+              <i class="bi bi-telephone" id="icon"></i>(201) 428-1034
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
-  <div class="container-fluid">
-    <div class="row body_div justify-content-evenly align-items-center">
-
-      <div class="col-md-4 text-white my-4 py-4" id="left_div">
-        <p style="  font-family: 'Tomorrow', sans-serif;
-          font-size: 22px;
-          font-weight: 500;
-          line-height: 25px;
-          letter-spacing: 0em;
-          text-align: left;
-          color: #0092E7;">Get it Repaired</p>
-        <h2 style="    font-size: 46px;
-          font-family: 'Tomorrow', sans-serif;">Successful Solution</h2>
-        <h2 style="    font-size: 53px;
-          font-family: 'Tomorrow', sans-serif;;
-          font-weight: bolder;">For <span id="my_span">Any Situation </span> <br>is Guranteed</h2>
-        <p style="font-size: 14px;
-          ">We specialize in the repair and service of computer hardware and software. Viruses pose no threat to our
-          trained specialists and are dealt with quickly</p>
-        <button id="nav_btn" class="btn btn-outline-success" type="submit"><i class="bi bi-telephone"
-            id="icon"></i>(201) 428-1034</button>
-      </div>
-      <div class="col-md-4" id="bg_clr">
-        <h3 class="text-center">Schedule a Call for <br> Your Needs!</h3>
-        <!-- form -->
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Full Name* </label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Phone Number*</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Type of services*</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3" id="radio_box">
-            <label class="form-label d-block">Best Time to Call</label>
-            <!-- radio -->
-            <div class="form-check form-check-inline" id="radio1">
-              <input class="form-check-input radio_style" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                value="option1">
-              <label class="form-check-label labbeled" for="inlineRadio1">ASAP</label>
+    </nav>
+    <div class="container-fluid">
+      <div class="row body_div justify-content-evenly align-items-center">
+        <div class="col-md-4 text-white my-4 py-4" id="left_div">
+          <p
+            style="
+              font-family: 'Tomorrow', sans-serif;
+              font-size: 22px;
+              font-weight: 500;
+              line-height: 25px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #0092e7;
+            "
+          >
+            Get it Repaired
+          </p>
+          <h2 style="font-size: 46px; font-family: 'Tomorrow', sans-serif">
+            Successful Solution
+          </h2>
+          <h2
+            style="
+              font-size: 53px;
+              font-family: 'Tomorrow', sans-serif;
+              font-weight: bolder;
+            "
+          >
+            For <span id="my_span">Any Situation </span> <br />is Guranteed
+          </h2>
+          <p style="font-size: 14px">
+            We specialize in the repair and service of computer hardware and
+            software. Viruses pose no threat to our trained specialists and are
+            dealt with quickly
+          </p>
+          <button id="nav_btn" class="btn btn-outline-success" type="submit">
+            <i class="bi bi-telephone" id="icon"></i>(201) 428-1034
+          </button>
+        </div>
+        <div class="col-md-4" id="bg_clr">
+          <h3 class="text-center">
+            Schedule a Call for <br />
+            Your Needs!
+          </h3>
+          <!-- form -->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Full Name*
+              </label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
             </div>
-            <div class="form-check form-check-inline" id="radio1">
-              <input class="form-check-input radio_style" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                value="option1">
-              <label class="form-check-label labbeled" for="inlineRadio1">Today</label>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Phone Number*</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
             </div>
-            <div class="form-check form-check-inline" id="radio1">
-              <input class="form-check-input radio_style" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                value="option1">
-              <label class="form-check-label labbeled" for="inlineRadio1">Tomorrow</label>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Type of services*</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3" id="radio_box">
+              <label class="form-label d-block">Best Time to Call</label>
+              <!-- radio -->
+              <div class="form-check form-check-inline" id="radio1">
+                <input
+                  class="form-check-input radio_style"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label labbeled" for="inlineRadio1"
+                  >ASAP</label
+                >
+              </div>
+              <div class="form-check form-check-inline" id="radio1">
+                <input
+                  class="form-check-input radio_style"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label labbeled" for="inlineRadio1"
+                  >Today</label
+                >
+              </div>
+              <div class="form-check form-check-inline" id="radio1">
+                <input
+                  class="form-check-input radio_style"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label labbeled" for="inlineRadio1"
+                  >Tomorrow</label
+                >
+              </div>
             </div>
 
-
-
-          </div>
-
-          <button type="submit" class="btn btn-primary">Request a Call</button>
-        </form>
-        <!-- form end -->
-      </div>
-
-    </div>
-    <!-- secong page start -->
-    <div class="row justify-content-evenly mt-4 align-items-center secondPage">
-      <div class="col-md-4" id="secondOfLeft">
-        <h2>Same-Day Computer <br>
-          Repair Inquiries In NJ & NYC</h2>
-        <img src="images/Group 39319.png" class="img-fluid" alt="">
-        <p>We’re in this business since 2011 and we provide
-          the best services.</p>
-        <h6>We specialize in the repair and service of computer hardware and software Viruses pose no threat to our
-          trained specialists and are dealt with quickly.</h6>
-        <div class="row justify-content-evenly" id="smallBoxes">
-          <div class="col-md-5 col-sm-5 col-5" id="smallBox1">
-            <h6>Dedicated Staff</h6>
-            <p>Our staff consists of dedicated and certified A+
-              and Network+ technicians who take your tech
-              capabilities to the next level, providing stellar
-              services throughout NJ & NYC.</p>
-            <img src="images/clicktopay 1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-5 col-sm-5 col-5" id="smallBox2">
-            <h6>Hardware & Software</h6>
-            <p>We specialize in the repair and service of
-              computer hardware and software.Viruses
-              pose no threat to our trained specialists
-              and are dealt with quickly.</p>
-            <img src="images/teamviewer_logo_medium 1.png" class="img-fluid" alt="">
-            <img src="images/join 1.png" style="height: 40px;" class="img-fluid" alt="">
-          </div>
+            <button type="submit" class="btn btn-primary">
+              Request a Call
+            </button>
+          </form>
+          <!-- form end -->
         </div>
       </div>
-      <div class="col-md-4">
-        <img src="images/Second_page_right_bg.png" class="img-fluid" alt="">
-      </div>
-    </div>
-
-    <!-- four boxes rows -->
-
-    <div class="row justify-content-evenly my-2" id="fourbox">
-      <div class="col-md-2 col-5 col-sm-5 my-2" id="smbox">
-        <img src="images/computer.png" class="img-fluid mx-auto d-block text-light img-center" alt="">
-        <h6 class="text-center">Computer Repair</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ technicians who take your
-          tech capabilities to the next level, providing stellar services throughout NJ & NYC.</p>
-        <button type="button" class="btn btn-primary">Read More</button>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 my-2" id="smbox">
-        <img src="images/laptop.png" class="img-fluid mx-auto d-block text-light img-center" alt="">
-        <h6 class="text-center">Laptop Repair</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ technicians who take your
-          tech capabilities to the next level, providing stellar services throughout NJ & NYC.</p>
-        <button type="button" class="btn btn-primary">Read More</button>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 my-2" id="smbox">
-        <img src="images/mobile.png" class="img-fluid mx-auto d-block text-light img-center" alt="">
-        <h6 class="text-center">Phone Repair</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ technicians who take your
-          tech capabilities to the next level, providing stellar services throughout NJ & NYC.</p>
-        <button type="button" class="btn btn-primary">Read More</button>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 my-2" id="smbox">
-        <img src="images/cctv.png" class="img-fluid mx-auto d-block text-light img-center" alt="">
-        <h6 class="text-center">Computer Repair</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ technicians who take your
-          tech capabilities to the next level, providing stellar services throughout NJ & NYC.</p>
-        <button type="button" class="btn btn-primary">Read More</button>
-      </div>
-
-    </div>
-
-    <!-- container fluid end -->
-  </div>
-  <!-- second container fluid start from here -->
-  <div class="container-fluid" id="secondContainer">
-    <div class="row" id="firstRow">
-      <div class="col-md-8 my-3" id="one">
-        <h5 class="text-white">Why People Trust</h5>
-        <h2 class="text-white">& Choice <span>2FX Computers</span> </h2>
-        <p class="text-white">We specialize in the repair and service of computer hardware and software.Viruses pose no
-          threat to our trained specialists and are dealt with quickly.</p>
-      </div>
-    </div>
-
-    <div class="row offset-1 pb-3" id="secondRow">
-      <div class="col-md-2 col-5 col-sm-5 mb-3 bg-light mx-3" id="Two">
-        <img src="images/repair (2) 1.png" class="img-fluid mx-auto d-block text-light" alt="">
-        <h6 class="text-center">Best Services</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 bg-light mx-3 mb-3" id="Two">
-        <img src="images/technician 1.png" class="img-fluid mx-auto d-block text-light" alt="">
-        <h6 class="text-center">Best Staff</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 bg-light mx-3 mb-3" id="Two">
-        <img src="images/tag 1.png" class="img-fluid mx-auto d-block text-light" alt="">
-        <h6 class="text-center">Simple Pricing</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 bg-light mx-3 mb-3" id="Two">
-        <img src="images/guarantee 1.png" class="img-fluid mx-auto d-block text-light" alt="">
-        <h6 class="text-center">Guarantee</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network</p>
-      </div>
-
-    </div>
-
-    <!-- second container fluid end -->
-  </div>
-
-  <!-- third container fluid is started from here  -->
-
-  <div class="container-fluid">
-    <div class="row my-4" id="rowNo1">
-      <div class="col-md-12" id="_one">
-        <h2 class="text-center">
-          Our Services
-        </h2>
-        <p class="text-center">We specialize in the repair and service of computer hardware and software.Viruses pose no
-          threat to our trained <br>
-          specialists and are dealt with quickly.</p>
-      </div>
-    </div>
-
-    <div class="row justify-content-evenly" id="rowNo2">
-      <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
-        <img src="images/1.png" class="mx-auto d-block img-fluid" alt="">
-        <h6 class="text-center">Remote Disktop Scope</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ techn
-          etwork+ techn</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
-        <img src="images/2.png" class="mx-auto d-block img-fluid" alt="">
-        <h6 class="text-center">PC Tune and Set Up</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ techn
-          etwork+ techn</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
-        <img src="images/3.png" class="mx-auto d-block img-fluid" alt="">
-        <h6 class="text-center">Virus and Security</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ techn
-          etwork+ techn</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
-        <img src="images/4.png" class="mx-auto d-block img-fluid" alt="">
-        <h6 class="text-center">Backup</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ techn
-          etwork+ techn</p>
-      </div>
-    </div>
-
-    <div class="row justify-content-evenly" id="rowNo3">
-
-      <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
-        <img src="images/5.png" class="mx-auto d-block img-fluid" alt="">
-        <h6 class="text-center">Data Recovery</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ techn
-          etwork+ techn</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
-        <img src="images/6.png" class="mx-auto d-block img-fluid" alt="">
-        <h6 class="text-center">Wireless Network</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ techn
-          etwork+ techn</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
-        <img src="images/7.png" class="mx-auto d-block img-fluid" alt="">
-        <h6 class="text-center">Hardware Installation</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ techn
-          etwork+ techn</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
-        <img src="images/8.png" class="mx-auto d-block img-fluid" alt="">
-        <h6 class="text-center">CCTV Installation</h6>
-        <p class="text-center">Our staff consists of dedicated and certified A+ and Network+ techn
-          etwork+ techn</p>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-md-12 text-center py-4" id="centerButton">
-        <button type="button" class="btn btn-primary">Read More</button>
-      </div>
-    </div>
-
-    <!-- 6 Mobile tags name -->
-
-    <div class="row pb-4" id="six-images">
-      <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six"><img src="images/22.png" alt=""></div>
-      <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six"><img src="images/11.png" alt=""></div>
-      <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six"><img src="images/33.png" alt=""></div>
-      <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six"><img src="images/44.png" alt=""></div>
-      <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six"><img src="images/55.png" alt=""></div>
-      <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six"><img src="images/66.png" alt=""></div>
-    </div>
-
-    <div class="row pb-3" id="clients">
-      <h2 class="text-center">Happy clients</h2>
-      <p class="text-center">We specialize in the repair and service of computer hardware and software.Viruses pose no
-        threat <br> to our trained
-        specialists and are dealt with quickly.</p>
-    </div>
-    <!-- Clients Cards -->
-    <div class="row justify-content-evenly">
-      <div class="col-md-2 col-5 col-sm-5 my-3" id="clientfcard">
-        <img class="img-fluid b-block rounded" src="images/picc.png" alt="">
-        <h6 class="d-inline">Claudia V </h6>
-        <h5 class="">Kearny, NJ</h5>
-        <hr>
-        <p>Excellent service and quick response
-          Thousands times better than Geeks squad My Dell laptop developed wireless connection problems just a day
-          before my business tour.</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 my-3" id="clientfcard">
-        <img class="img-fluid b-block rounded" src="images/picc.png" alt="">
-        <h6 class="d-inline">Claudia V </h6>
-        <h5 class="">Kearny, NJ</h5>
-        <hr>
-        <p>Excellent service and quick response
-          Thousands times better than Geeks squad My Dell laptop developed wireless connection problems just a day
-          before my business tour.</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 my-3" id="clientfcard">
-        <img class="img-fluid b-block rounded" src="images/picc.png" alt="">
-        <h6 class="d-inline">Claudia V </h6>
-        <h5 class="">Kearny, NJ</h5>
-        <hr>
-        <p>Excellent service and quick response
-          Thousands times better than Geeks squad My Dell laptop developed wireless connection problems just a day
-          before my business tour.</p>
-      </div>
-
-      <div class="col-md-2 col-5 col-sm-5 my-3" id="clientfcard">
-        <img class="img-fluid b-block rounded" src="images/picc.png" alt="">
-        <h6 class="d-inline">Claudia V </h6>
-        <h5 class="">Kearny, NJ</h5>
-        <hr>
-        <p>Excellent service and quick response
-          Thousands times better than Geeks squad My Dell laptop developed wireless connection problems just a day
-          before my business tour.</p>
-      </div>
-    </div>
-
-    <div class="row justify-content-evenly" id="countParent">
-      <div class="col-md-2" id="count">
-        <h1 class="text-center text-white"> 2150+ </h1>
-        <p class="text-center text-white">Completed Tasks</p>
-      </div>
-
-      <div class="col-md-2" id="count">
-        <h1 class="text-center text-white"> 1820 </h1>
-        <p class="text-center text-white">CHappy Clients</p>
-      </div>
-
-      <div class="col-md-2" id="count">
-        <h1 class="text-center text-white"> 70+ </h1>
-        <p class="text-center text-white">Required Equipments</p>
-      </div>
-
-      <div class="col-md-2" id="count">
-        <h1 class="text-center text-white"> 22 </h1>
-        <p class="text-center text-white">Awards</p>
-      </div>
-
-    </div>
-
-
-
-    <!-- container fluid end -->
-  </div>
-
-  <div class="container-fluid position-relative" id="bg_img">
-    <img class="img-fluid" src="images/bgg.png" alt="" id="bgimg">
-    <div class="row justify-content-evenly" id="iphone">
-      <div class="col-md-5" id="iphone1">
-        <h1 class="my-2">We Repair Apple<br> Devices
-          <span>MacBook,<br> Screens, Mobiles</span>
-        </h1>
-        <p>We know it can be frustrating and time-consuming troubleshooting your IT needs. Fortunately, 2FixComputer’s
-          credentials make it an easy choice for customers. We specialize in the repair and service of computer hardware
-          and software.Viruses pose no threat to our trained specialists and are dealt with quickly. We know it can be
-          frustrating and time-consuming troubleshooting your IT needs. Fortunately, 2FixComputer’s credentials make it
-          an easy choice for customers. We specialize in the repair and service of computer hardware and
-          software.Viruses pose no threat to our trained specialists and are dealt with quickly.</p>
-        <h6 style="margin-top: 8vh;"> <i class="bi bi-apple"></i>Apple Screen</h6>
-        <h6><i class="bi bi-apple"></i>MacBook</h6>
-        <h6><i class="bi bi-apple"></i>Ipad and Apple TV</h6>
-        <h6><i class="bi bi-apple"></i>Apple Mobile</h6>
-      </div>
-      <div class="col-md-5" id="iphone2">
-        <img src="images/iphone.png" class="img-fluid mt-4" alt="">
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid">
-
-    <div class="row" id="fullcard">
-      <div class="col-md-12 text-center" id="card">
-        <h1 class="text-center">Get Your Urgent <span>Password Image</span> Done Here</h1>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- last container fluid is startrd from here -->
-  <div class="container-fluid position-relative" id="manbgPic">
-    <img id="man1" src="images/man bg.png" class="img-fluid" alt="">
-    <div class="row justify-content-center">
-
-      <div class="col-md-5" id="imgMan">
-        <img class="img-fluid mt-3" src="images/man pic.png" style="height: 87vh;">
-      </div>
-
-      <div class="col-md-5" id="h2pDiv">
-        <div class="row" id="h2pfChild">
-          <div class="col-md-12" id="h2p">
-            <h2>
-              Why You Should <br> <span> Choose 2Fix Computers</span>
-            </h2>
-            <p>We know it can be frustrating and time-consuming troubleshooting your IT needs. Fortunately,
-              2FixComputer’s credentials make it an easy choice for customers. We specialize in the repair and service
-              of computer hardware and software.Viruses pose no threat to our trained specialists and are dealt with
-              quickly.</p>
+      <!-- secong page start -->
+      <div
+        class="row justify-content-evenly mt-4 align-items-center secondPage"
+      >
+        <div class="col-md-4" id="secondOfLeft">
+          <h2>
+            Same-Day Computer <br />
+            Repair Inquiries In NJ & NYC
+          </h2>
+          <img src="images/Group 39319.png" class="img-fluid" alt="" />
+          <p>
+            We’re in this business since 2011 and we provide the best services.
+          </p>
+          <h6>
+            We specialize in the repair and service of computer hardware and
+            software Viruses pose no threat to our trained specialists and are
+            dealt with quickly.
+          </h6>
+          <div class="row justify-content-evenly" id="smallBoxes">
+            <div class="col-md-5 col-sm-5 col-5" id="smallBox1">
+              <h6>Dedicated Staff</h6>
+              <p>
+                Our staff consists of dedicated and certified A+ and Network+
+                technicians who take your tech capabilities to the next level,
+                providing stellar services throughout NJ & NYC.
+              </p>
+              <img src="images/clicktopay 1.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-5 col-sm-5 col-5" id="smallBox2">
+              <h6>Hardware & Software</h6>
+              <p>
+                We specialize in the repair and service of computer hardware and
+                software.Viruses pose no threat to our trained specialists and
+                are dealt with quickly.
+              </p>
+              <img
+                src="images/teamviewer_logo_medium 1.png"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="images/join 1.png"
+                style="height: 40px"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
           </div>
         </div>
-        
-        <div class="row">
-          <div class="col-md-2 col-2 col-sm-2 img-fluid" id="miniPcPic"><img src="images/Repair 2.png" alt=""></div>
-          <div class="col-md-9 col-9 col-sm-9" id="miniPcDetail">
-            <h6>We’re in this business since 2011</h6>
-            <p>We have over 13 years of experience in the computer repair/support and office/home IT devices.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-2 col-2 col-sm-2 img-fluid" id="miniPcPic"><img src="images/Repair 2.png" alt=""></div>
-          <div class="col-md-9 col-9 col-sm-9" id="miniPcDetail">
-            <h6>We’re in this business since 2011</h6>
-            <p>We have over 13 years of experience in the computer repair/support and office/home IT devices.</p>
-          </div>
-        </div>
-
-        <div class="row justify-content-evenly my-3">
-
-          <div class="col-md-3 col-3 col-sm-3">
-            <img class="img-fluid" src="images/network+certified.png" alt="">
-          </div>
-          <div class="col-md-3 col-3 col-sm-3">
-            <img class="img-fluid" src="images/a+certified1.png" alt="">
-          </div>
-
-          <div class="col-md-3 col-3 col-sm-3">
-            <img class="img-fluid" src="images/acrbolil2.png" alt="">
-          </div>
-
+        <div class="col-md-4">
+          <img src="images/Second_page_right_bg.png" class="img-fluid" alt="" />
         </div>
       </div>
 
+      <!-- four boxes rows -->
+
+      <div class="row justify-content-evenly my-2" id="fourbox">
+        <div class="col-md-2 col-5 col-sm-5 my-2" id="smbox">
+          <img
+            src="images/computer.png"
+            class="img-fluid mx-auto d-block text-light img-center"
+            alt=""
+          />
+          <h6 class="text-center">Computer Repair</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+
+            technicians who take your tech capabilities to the next level,
+            providing stellar services throughout NJ & NYC.
+          </p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 my-2" id="smbox">
+          <img
+            src="images/laptop.png"
+            class="img-fluid mx-auto d-block text-light img-center"
+            alt=""
+          />
+          <h6 class="text-center">Laptop Repair</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+
+            technicians who take your tech capabilities to the next level,
+            providing stellar services throughout NJ & NYC.
+          </p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 my-2" id="smbox">
+          <img
+            src="images/mobile.png"
+            class="img-fluid mx-auto d-block text-light img-center"
+            alt=""
+          />
+          <h6 class="text-center">Phone Repair</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+
+            technicians who take your tech capabilities to the next level,
+            providing stellar services throughout NJ & NYC.
+          </p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 my-2" id="smbox">
+          <img
+            src="images/cctv.png"
+            class="img-fluid mx-auto d-block text-light img-center"
+            alt=""
+          />
+          <h6 class="text-center">Computer Repair</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+
+            technicians who take your tech capabilities to the next level,
+            providing stellar services throughout NJ & NYC.
+          </p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+
+      <!-- container fluid end -->
     </div>
-    <!-- container fluid end -->
-  </div>
-  <!-- footer container is started from here -->
-  <div class="container-fluid">
-    <div class="row justify-content-around" id="footerContainer">
-      <div class="col-md-3" id="about"> 
-        <img src="images/2fixlogo2.png" class="img-fluid mx-auto d-block" alt="">
-        <p>We have over 13 years of experience
-          in the computer repair/support and
-          office/home IT devices.</p>
+    <!-- second container fluid start from here -->
+    <div class="container-fluid" id="secondContainer">
+      <div class="row" id="firstRow">
+        <div class="col-md-8 my-3" id="one">
+          <h5 class="text-white">Why People Trust</h5>
+          <h2 class="text-white">& Choice <span>2FX Computers</span></h2>
+          <p class="text-white">
+            We specialize in the repair and service of computer hardware and
+            software. Viruses pose no threat to our trained specialists and are
+            dealt with quickly.
+          </p>
+        </div>
       </div>
 
-      <div class="col-md-2" id="explore">
-        <h6>Explore</h6>
-        <p>Home <br> Our Services <br> About Us <br> Contact Us</p>
+      <div class="row pb-3" id="secondRow">
+        <div class="col-md-2 col-5 col-sm-5 mb-3 bg-light mx-3" id="Two">
+          <img
+            src="images/repair (2) 1.png"
+            class="img-fluid mx-auto d-block text-light"
+            alt=""
+          />
+          <h6 class="text-center">Best Services</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 bg-light mx-3 mb-3" id="Two">
+          <img
+            src="images/technician 1.png"
+            class="img-fluid mx-auto d-block text-light"
+            alt=""
+          />
+          <h6 class="text-center">Best Staff</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 bg-light mx-3 mb-3" id="Two">
+          <img
+            src="images/tag 1.png"
+            class="img-fluid mx-auto d-block text-light"
+            alt=""
+          />
+          <h6 class="text-center">Simple Pricing</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 bg-light mx-3 mb-3" id="Two">
+          <img
+            src="images/guarantee 1.png"
+            class="img-fluid mx-auto d-block text-light"
+            alt=""
+          />
+          <h6 class="text-center">Guarantee</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network
+          </p>
+        </div>
       </div>
 
-      <div class="col-md-2" id="timing">
-        <h6>Timing</h6>
-        <p>Mon-Fri: 10am to 7:30pm <br> Saturday: 10am to 5pm <br> Sunday: Closed </p>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-twitter"></i>
-        <i class="bi bi-yelp"></i>
-      </div>
-
-      <div class="col-md-3">
-        <h6 class="mb-4 mt-4">Location</h6>
-        <img src="images/map[.png" class="img-fluid mt-3" alt="">
-      </div>
-
+      <!-- second container fluid end -->
     </div>
 
-    <div class="row" id="lastFooter">
-      <div class="col-md-12 pt-3" id="footer">
-        <p class="text-center text-white">Copyright © 2023 2FixComputers | Powered by <b>USMAN JALIL</b></p>
+    <!-- third container fluid is started from here  -->
+
+    <div class="container-fluid">
+      <div class="row my-4" id="rowNo1">
+        <div class="col-md-12" id="_one">
+          <h2 class="text-center">Our Services</h2>
+          <p class="text-center">
+            We specialize in the repair and service of computer hardware and
+            software.Viruses pose no threat to our trained <br />
+            specialists and are dealt with quickly.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly" id="rowNo2">
+        <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
+          <img src="images/1.png" class="mx-auto d-block img-fluid" alt="" />
+          <h6 class="text-center">Remote Disktop Scope</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+ techn
+            etwork+ techn
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
+          <img src="images/2.png" class="mx-auto d-block img-fluid" alt="" />
+          <h6 class="text-center">PC Tune and Set Up</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+ techn
+            etwork+ techn
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
+          <img src="images/3.png" class="mx-auto d-block img-fluid" alt="" />
+          <h6 class="text-center">Virus and Security</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+ techn
+            etwork+ techn
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
+          <img src="images/4.png" class="mx-auto d-block img-fluid" alt="" />
+          <h6 class="text-center">Backup</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+ techn
+            etwork+ techn
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly" id="rowNo3">
+        <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
+          <img src="images/5.png" class="mx-auto d-block img-fluid" alt="" />
+          <h6 class="text-center">Data Recovery</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+ techn
+            etwork+ techn
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
+          <img src="images/6.png" class="mx-auto d-block img-fluid" alt="" />
+          <h6 class="text-center">Wireless Network</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+ techn
+            etwork+ techn
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
+          <img src="images/7.png" class="mx-auto d-block img-fluid" alt="" />
+          <h6 class="text-center">Hardware Installation</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+ techn
+            etwork+ techn
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 rounded" id="a">
+          <img src="images/8.png" class="mx-auto d-block img-fluid" alt="" />
+          <h6 class="text-center">CCTV Installation</h6>
+          <p class="text-center">
+            Our staff consists of dedicated and certified A+ and Network+ techn
+            etwork+ techn
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-center py-4" id="centerButton">
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+
+      <!-- 6 Mobile tags name -->
+
+      <div class="row pb-4" id="six-images">
+        <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six">
+          <img src="images/22.png" alt="" />
+        </div>
+        <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six">
+          <img src="images/11.png" alt="" />
+        </div>
+        <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six">
+          <img src="images/33.png" alt="" />
+        </div>
+        <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six">
+          <img src="images/44.png" alt="" />
+        </div>
+        <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six">
+          <img src="images/55.png" alt="" />
+        </div>
+        <div class="col-md-2 col-5 col-sm-4 img-fluid logo-six">
+          <img src="images/66.png" alt="" />
+        </div>
+      </div>
+
+      <div class="row pb-3" id="clients">
+        <h2 class="text-center">Happy clients</h2>
+        <p class="text-center">
+          We specialize in the repair and service of computer hardware and
+          software.Viruses pose no threat <br />
+          to our trained specialists and are dealt with quickly.
+        </p>
+      </div>
+      <!-- Clients Cards -->
+      <div class="row justify-content-evenly">
+        <div class="col-md-2 col-5 col-sm-5 my-3" id="clientfcard">
+          <img class="img-fluid b-block rounded" src="images/picc.png" alt="" />
+          <h6 class="d-inline">Claudia V</h6>
+          <h5 class="">Kearny, NJ</h5>
+          <hr />
+          <p>
+            Excellent service and quick response Thousands times better than
+            Geeks squad My Dell laptop developed wireless connection problems
+            just a day before my business tour.
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 my-3" id="clientfcard">
+          <img class="img-fluid b-block rounded" src="images/picc.png" alt="" />
+          <h6 class="d-inline">Claudia V</h6>
+          <h5 class="">Kearny, NJ</h5>
+          <hr />
+          <p>
+            Excellent service and quick response Thousands times better than
+            Geeks squad My Dell laptop developed wireless connection problems
+            just a day before my business tour.
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 my-3" id="clientfcard">
+          <img class="img-fluid b-block rounded" src="images/picc.png" alt="" />
+          <h6 class="d-inline">Claudia V</h6>
+          <h5 class="">Kearny, NJ</h5>
+          <hr />
+          <p>
+            Excellent service and quick response Thousands times better than
+            Geeks squad My Dell laptop developed wireless connection problems
+            just a day before my business tour.
+          </p>
+        </div>
+
+        <div class="col-md-2 col-5 col-sm-5 my-3" id="clientfcard">
+          <img class="img-fluid b-block rounded" src="images/picc.png" alt="" />
+          <h6 class="d-inline">Claudia V</h6>
+          <h5 class="">Kearny, NJ</h5>
+          <hr />
+          <p>
+            Excellent service and quick response Thousands times better than
+            Geeks squad My Dell laptop developed wireless connection problems
+            just a day before my business tour.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly" id="countParent">
+        <div class="col-md-2" id="count">
+          <h1 class="text-center text-white">2150+</h1>
+          <p class="text-center text-white">Completed Tasks</p>
+        </div>
+
+        <div class="col-md-2" id="count">
+          <h1 class="text-center text-white">1820</h1>
+          <p class="text-center text-white">CHappy Clients</p>
+        </div>
+
+        <div class="col-md-2" id="count">
+          <h1 class="text-center text-white">70+</h1>
+          <p class="text-center text-white">Required Equipments</p>
+        </div>
+
+        <div class="col-md-2" id="count">
+          <h1 class="text-center text-white">22</h1>
+          <p class="text-center text-white">Awards</p>
+        </div>
+      </div>
+
+      <!-- container fluid end -->
+    </div>
+
+    <div class="container-fluid position-relative" id="bg_img">
+      <img class="img-fluid" src="images/bgg.png" alt="" id="bgimg" />
+      <div class="row justify-content-evenly" id="iphone">
+        <div class="col-md-5" id="iphone1">
+          <h1 class="my-2">
+            We Repair Apple<br />
+            Devices
+            <span
+              >MacBook,<br />
+              Screens, Mobiles</span
+            >
+          </h1>
+          <p>
+            We know it can be frustrating and time-consuming troubleshooting
+            your IT needs. Fortunately, 2FixComputer’s credentials make it an
+            easy choice for customers. We specialize in the repair and service
+            of computer hardware and software.Viruses pose no threat to our
+            trained specialists and are dealt with quickly. We know it can be
+            frustrating and time-consuming troubleshooting your IT needs.
+            Fortunately, 2FixComputer’s credentials make it an easy choice for
+            customers. We specialize in the repair and service of computer
+            hardware and software.Viruses pose no threat to our trained
+            specialists and are dealt with quickly.
+          </p>
+          <h6 style="margin-top: 8vh">
+            <i class="bi bi-apple"></i>Apple Screen
+          </h6>
+          <h6><i class="bi bi-apple"></i>MacBook</h6>
+          <h6><i class="bi bi-apple"></i>Ipad and Apple TV</h6>
+          <h6><i class="bi bi-apple"></i>Apple Mobile</h6>
+        </div>
+        <div class="col-md-5" id="iphone2">
+          <img src="images/iphone.png" class="img-fluid mt-4" alt="" />
+        </div>
       </div>
     </div>
 
-    <!-- footer container end -->
-  </div>
+    <div class="container-fluid">
+      <div class="row" id="fullcard">
+        <div class="col-md-12 text-center" id="card">
+          <h1 class="text-center">
+            Get Your Urgent <span>Password Image</span> Done Here
+          </h1>
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </div>
+    </div>
 
+    <!-- last container fluid is startrd from here -->
+    <div class="container-fluid position-relative" id="manbgPic">
+      <img id="man1" src="images/man bg.png" class="img-fluid" alt="" />
+      <div class="row justify-content-center">
+        <div class="col-md-5" id="imgMan">
+          <img
+            class="img-fluid mt-3"
+            src="images/man pic.png"
+            style="height: 87vh"
+          />
+        </div>
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</body>
+        <div class="col-md-5" id="h2pDiv">
+          <div class="row" id="h2pfChild">
+            <div class="col-md-12" id="h2p">
+              <h2>
+                Why You Should <br />
+                <span> Choose 2Fix Computers</span>
+              </h2>
+              <p>
+                We know it can be frustrating and time-consuming troubleshooting
+                your IT needs. Fortunately, 2FixComputer’s credentials make it
+                an easy choice for customers. We specialize in the repair and
+                service of computer hardware and software.Viruses pose no threat
+                to our trained specialists and are dealt with quickly.
+              </p>
+            </div>
+          </div>
 
+          <div class="row">
+            <div class="col-md-2 col-2 col-sm-2 img-fluid" id="miniPcPic">
+              <img src="images/Repair 2.png" alt="" />
+            </div>
+            <div class="col-md-9 col-9 col-sm-9" id="miniPcDetail">
+              <h6>We’re in this business since 2011</h6>
+              <p>
+                We have over 13 years of experience in the computer
+                repair/support and office/home IT devices.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2 col-2 col-sm-2 img-fluid" id="miniPcPic">
+              <img src="images/Repair 2.png" alt="" />
+            </div>
+            <div class="col-md-9 col-9 col-sm-9" id="miniPcDetail">
+              <h6>We’re in this business since 2011</h6>
+              <p>
+                We have over 13 years of experience in the computer
+                repair/support and office/home IT devices.
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly my-3">
+            <div class="col-md-3 col-3 col-sm-3">
+              <img
+                class="img-fluid"
+                src="images/network+certified.png"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 col-3 col-sm-3">
+              <img class="img-fluid" src="images/a+certified1.png" alt="" />
+            </div>
+
+            <div class="col-md-3 col-3 col-sm-3">
+              <img class="img-fluid" src="images/acrbolil2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- container fluid end -->
+    </div>
+    <!-- footer container is started from here -->
+    <div class="container-fluid">
+      <div class="row justify-content-around" id="footerContainer">
+        <div class="col-md-3" id="about">
+          <img
+            src="images/2fixlogo2.png"
+            class="img-fluid mx-auto d-block"
+            alt=""
+          />
+          <p>
+            We have over 13 years of experience in the computer repair/support
+            and office/home IT devices.
+          </p>
+        </div>
+
+        <div class="col-md-2" id="explore">
+          <h6>Explore</h6>
+          <p>
+            Home <br />
+            Our Services <br />
+            About Us <br />
+            Contact Us
+          </p>
+        </div>
+
+        <div class="col-md-2" id="timing">
+          <h6>Timing</h6>
+          <p>
+            Mon-Fri: 10am to 7:30pm <br />
+            Saturday: 10am to 5pm <br />
+            Sunday: Closed
+          </p>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-yelp"></i>
+        </div>
+
+        <div class="col-md-3">
+          <h6 class="mb-4 mt-4">Location</h6>
+          <img src="images/map[.png" class="img-fluid mt-3" alt="" />
+        </div>
+      </div>
+
+      <div class="row" id="lastFooter">
+        <div class="col-md-12 pt-3" id="footer">
+          <p class="text-center text-white">
+            Copyright © 2023 2FixComputers | Powered by <b>USMAN JALIL</b>
+          </p>
+        </div>
+      </div>
+
+      <!-- footer container end -->
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
